@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "1944007ea98ce2b514d788be01c008d12488468a63896a00ec5f46c4bf26a35575b39f58a0df1a058f4e60f7e4c60f1ef825ecbadf90c1091cbc0322e85b7773890f2b5f5026cca1cf04a25cf03d8e4d40ce6aa89c733486a9e7c4b5c539caad042dacc2a77e950693b6d07662abeb6bd9772de8d594d6f667132704a8b287c0e65517585334c3736d140e0eb74c6b78f88273470fd77cb603cf332959fd40c62eb82fb048de985b31c45e01de9da7c09370a4ee12ebb0a52e8cffc333f74a67f5998513238381a114863b55fe68414888f0fa4b834a07ae70fa474a1ad5b395a3c978679eb39de6b3995bb84010ca6e1fa8a3bd9577f54c2d8a2cff0273fcbd"
+   "sig": "c74650c69d76ee403bbc48a2970dd28f2e5ad6a37d7497fb4d7d7a18c300cc6ebfccce05804bef12deb1f1e565f9635d211bdffbdc94730123437ce1a24b34883fbeca59ca479849ea4ba697b8feaebef033e201deae10360b79a80a3ccaad31f148b24d04b9f616ce04223c89d3f0e8b78b57761de03b2d28d8e957e4ced9accc2039e80767de9aaf57e36372d046cccbb3a5533ac17b9fc2e5a8517dbef7963363648d0a7ba6f78ce14bdd718e143c879c3fe77fb9dc3b38edee7ccdc946a13afc2826b4afacccdbc66aaf0ad23a02e38185505239a0e294be81907c3f2ec9571eac885d5e444e492961fc262198aaae87152dd4083f17a9ba2c6151105644"
   }
  ],
  "signed": {
@@ -58,7 +58,9 @@
      ],
      "name": "rdf",
      "paths": [
-      "cityofamericancanyon/law-rdf"
+      "cityofamericancanyon/law-rdf",
+      "rdf/branch",
+      "rdf/capstone"
      ],
      "terminating": true,
      "threshold": 1
@@ -89,7 +91,7 @@
     }
    ]
   },
-  "expires": "2024-12-13T16:41:48Z",
+  "expires": "2024-12-13T16:59:56Z",
   "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
@@ -114,6 +116,6 @@
     "length": 1919
    }
   },
-  "version": 11
+  "version": 12
  }
 }
