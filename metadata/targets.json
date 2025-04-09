@@ -1,8 +1,8 @@
 {
  "signatures": [
   {
-   "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "7659a6aa937351cf3ac2427887f0b6c358bcd0adcf3aee7234f6fa4f134a22b4a0166d9bc430cb726b6e5ac77288885b4a14522c2634ddf8df7b1383628ff4c22d5fe4c31e5224d78c0e0d4464764ee9481a80dfab5d6952987ad65dedcc4d8a59b9e306080dc6897ecaee4cf87fbe830e3636cec8978d785045ae75a417a0c5170224d14fdb40983c7c4489177ee0c904bb1c0df596f1403d665e8f7e64527c8447325946f3c5357e67a6c7c2190ca3f3c564ba713c7c730c6c87656542d586a0bd961bbdf85bca54a42285ad961cbbf7ea409dd2941931af40456f9722ed2b9fa1e1a72160b4d5694b350adc15e6c2116e0c3b4c767c89535c0bdcc7119548"
+   "keyid": "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94",
+   "sig": "69389ffcccabe5add31876bfc3f4111e46a173890248c765b6a2b44c5866ed23a6ff03a1896f41e91a8851cbb5367f0678cb131a9868a745634e56a9df733e243751b72ce2112619aa0dca5c1fe513f70d50fdb885d3747ba41e55e73c27e339d52753c1142ef80e5a3461cd89b93b2e4671e2808f98ee50263f3c0cb49c8d308850b34adf6961203d0b0e49899ea72d0d2bd413aae8fff56929c2b527caa5234e470fcc097a86d1c8c7075fb767a3962455676469e1c3c3944af7deeb393be04f935359ead1f14f9c4e28e85ea9fa036b27101110df9285877c06ac976a3007098dab656de6596d6690fcce8a6ab9d20a2fa56c925716bbd8a7606a4ab6ad5c"
   }
  ],
  "signed": {
@@ -31,6 +31,17 @@
      },
      "scheme": "rsa-pkcs1v15-sha256"
     },
+    "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArIq/m+pPYK1t/PJvz1YF\nxtttRYQYMDEu5IPHCeYv6GPW0bGfTzURKh7tPzdevaESwjZVXttEVQi3NplZmRcE\nRykl7pTjUxG7W65tEiF2ltld/V4jUDGx1O0C7DM9u3MTl3w9/P4LZUFbAsds0Fed\nVwmWPIipYSkPPRQKNwwC9QARBaHl4RhNjzV5RzyDfC8o6rwJovAZrpPUrJq+FOqI\nC9+KvhZkK/OAMGrZ+sjN9yuzn4vNdTkoCd0CLl+XM7XtQ7xAC4h7bc3/e9IWqz7F\nOPQK5Ae5Qm6j+wLgur3rElS/nD+APvOtCCtCUEhY6I8ITJntYFuGg5bgbacEjcEG\nOQIDAQAB\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
     "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111": {
      "keyid_hash_algorithms": [
       "sha256",
@@ -48,7 +59,8 @@
      "keyids": [
       "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
      ],
      "name": "law",
      "paths": [
@@ -67,7 +79,8 @@
      "keyids": [
       "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
      ],
      "name": "rdf",
      "paths": [
@@ -82,7 +95,8 @@
      "keyids": [
       "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
      ],
      "name": "docs",
      "paths": [
@@ -95,7 +109,8 @@
      "keyids": [
       "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f"
+      "778f6352d73ffff1a1e297bc5615755163a96548e115857d7d48d869b9fe220f",
+      "8607a8656813c89fc64105079e37c50fc1ea0f70878eadce1d90be5c17250b94"
      ],
      "name": "assets",
      "paths": [
@@ -131,6 +146,6 @@
     "length": 1919
    }
   },
-  "version": 13
+  "version": 14
  }
 }
